@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
 import { ExploreContainerComponent } from '../explore-container/explore-container.component';
+import { StatusBar } from '@capacitor/status-bar';
 
 @Component({
   selector: 'app-tab1',
@@ -10,4 +11,8 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
 })
 export class Tab1Page {
   constructor() {}
+
+  async ionViewWillEnter() {
+    await StatusBar.setBackgroundColor({ color: '#FF0000' });
+  }
 }

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
 import { ExploreContainerComponent } from '../explore-container/explore-container.component';
+import { StatusBar } from '@capacitor/status-bar';
 
 @Component({
   selector: 'app-tab2',
@@ -10,4 +11,9 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
 })
 export class Tab2Page {
   constructor() {}
+
+  async ionViewWillEnter() {
+    await StatusBar.setOverlaysWebView({ overlay: true });
+    await StatusBar.setBackgroundColor({ color: '#00FF00' });
+  }
 }
