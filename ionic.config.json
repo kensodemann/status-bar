@@ -1,0 +1,7 @@
+{
+  "name": "status-bar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
