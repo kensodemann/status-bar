@@ -104,17 +104,17 @@ Conclusions:
 #### Android 15
 
 - **Tab 1**
-  - Color: White or Dark Grey (depends on dark vs light mode)
+  - Color: **White or Dark Grey (depends on dark vs light mode)**
   - Overlaying Web View: **Probably true**
-  - Navigation Gesture Bar (or 3-Buttons): Normal
+  - Navigation Gesture Bar (or 3-Buttons): **Overlays the application tab bar**
 - **Tab 2**
-  - Color: White or Dark Grey (depends on dark vs light mode)
+  - Color: **White or Dark Grey (depends on dark vs light mode)**
   - Overlaying Web View: **Probably true**
-  - Navigation Gesture Bar (or 3-Buttons): Normal
+  - Navigation Gesture Bar (or 3-Buttons): **Overlays the application tab bar**
 - **Tab 2**
-  - Color: White or Dark Grey (depends on dark vs light mode)
+  - Color: **White or Dark Grey (depends on dark vs light mode)**
   - Overlaying Web View: **Probably true**
-  - Navigation Gesture Bar (or 3-Buttons): Normal
+  - Navigation Gesture Bar (or 3-Buttons): **Overlays the application tab bar**
 
 Conclusions:
 
